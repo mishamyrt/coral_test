@@ -4,6 +4,7 @@
 div[class*="StreamContainer-tabBarRow-"],
 i[class*="ReactionButton-icon-"],
 i[class*="ReplyButton-icon-"],
+span[class*="UserBoxAuthenticated-text"],
 i[class*="PermalinkButton-icon-"],
 div[class*="Comment-subBar-"],
 .coral.coral-unauthenticated .coral-createComment,

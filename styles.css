@@ -145,7 +145,8 @@ button[class*="Tab-active-"].coral.coral-tabBar-tab {
   top: -7px;
 }
 
-.coral.coral-myComment-story {
+.coral.coral-myComment-story,
+.coral.coral-myComment-content {
   font-family: 'PT Serif', serif;
   font-weight: normal;
   color: black;

@@ -22,7 +22,7 @@ div[class*="UserBoxAuthenticated-text-"],
 
 .coral.coral-tabBar {
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
 
 div[class*="AllCommentsTabContainer-borderedComment"] {
@@ -86,9 +86,11 @@ span.coral-comment-username {
 .coral.coral-tabBar-tab {
   font-size: 16px;
   color: #1a56f1;
+  background-color: white;
   font-family: 'PT Serif', sans-serif;
   font-weight: normal;
   padding: 7px 14px;
+  margin-bottom: 22px;
   border-radius: 50px;
   border: none;
 }

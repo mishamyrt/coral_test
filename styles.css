@@ -79,6 +79,10 @@ span.coral-comment-username {
   --palette-grey-600: #0032b4;
 }
 
+.coral.coral-rte-content {
+  border-top: 1px solid var(--palette-grey-300);
+}
+
 .coral.coral-timestamp > span,
 .coral.coral-comment-timestamp,
 .coral.coral-myComment-timestamp > span,

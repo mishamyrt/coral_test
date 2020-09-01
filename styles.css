@@ -58,7 +58,8 @@ span.coral-comment-username {
   --palette-grey-600: #0032b4;
 }
 
-.coral.coral-timestamp > span {
+.coral.coral-timestamp > span,
+.coral.coral-comment-timestamp {
   font-family: 'PT Serif', serif;
   font-weight: normal;
   font-size: 14px;

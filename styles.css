@@ -15,6 +15,11 @@ i[class*="PermalinkButton-icon-"] {
   --palette-grey-500: #676565;
 }
 
+.coral-comment-actionBar {
+  position: relative;
+  left: -4px;
+}
+
 .coral-comment-username > span,
 .coral.coral-comment-replyButton,
 .coral.coral-comment-reactButton,

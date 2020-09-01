@@ -5,7 +5,9 @@ div[class*="StreamContainer-tabBarRow-"],
 i[class*="ReactionButton-icon-"],
 i[class*="ReplyButton-icon-"],
 i[class*="PermalinkButton-icon-"],
-div[class*="Comment-subBar-"] {
+div[class*="Comment-subBar-"],
+.coral.coral-unauthenticated .coral-createComment,
+.coral.coral-unauthenticated .coral-viewerBox {
   display: none;
 }
 
@@ -26,10 +28,6 @@ div[class*="AllCommentsTabContainer-borderedComment"] {
 
   --palette-grey-500: #676565;
   --palette-grey-600: #f4f4f4;
-}
-
-.coral.coral-unauthenticated .coral-createComment {
-  display: none;
 }
 
 .coral-comment-actionBar {

@@ -27,6 +27,12 @@ i[class*="PermalinkButton-icon-"] {
   --palette-grey-500: #1a56f1;
 }
 
+.coral.coral-timestamp > span {
+  font-family: 'PT Serif', serif;
+  font-weight: normal;
+  font-size: 14px;
+}
+
 .coral.coral-comment-replyButton,
 .coral.coral-comment-reactButton,
 .coral.coral-comment-shareButton {

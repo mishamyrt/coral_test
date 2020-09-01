@@ -7,6 +7,8 @@ i[class*="ReplyButton-icon-"],
 span[class*="UserBoxAuthenticated-text"],
 i[class*="PermalinkButton-icon-"],
 div[class*="Comment-subBar-"],
+div[class*="MyCommentsContainer-downloadComments-"],
+div[class*="UserBoxAuthenticated-text-"],
 .coral.coral-unauthenticated .coral-createComment,
 .coral.coral-unauthenticated .coral-viewerBox,
 .coral-viewerBox-username {

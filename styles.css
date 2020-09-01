@@ -79,7 +79,9 @@ span.coral-comment-username {
 }
 
 .coral.coral-timestamp > span,
-.coral.coral-comment-timestamp {
+.coral.coral-comment-timestamp,
+.coral.coral-myComment-timestamp > span,
+.coral.coral-myComment-timestamp {
   font-family: 'PT Serif', serif;
   font-weight: normal;
   font-size: 14px;
@@ -110,4 +112,16 @@ button[class*="Tab-active-"].coral.coral-tabBar-tab {
 
 .coral.coral-tabBar-tab::before {
   display: none;
+}
+
+.coral.coral-myProfile {
+  position: relative;
+  top: -1px;
+}
+
+.coral.coral-myComment-story {
+  font-family: 'PT Serif', serif;
+  font-weight: normal;
+  color: black;
+  font-size: 16px;
 }

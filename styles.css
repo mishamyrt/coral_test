@@ -79,8 +79,9 @@ span.coral-comment-username {
   font-size: 16px;
 }
 
-.coral.coral-rte-content {
+.coral.coral-commentForm {
   border-top: 1px solid var(--palette-grey-300);
+  border-radius: var(--round-corners);
 }
 
 .coral.coral-createComment-submit {

@@ -12,6 +12,12 @@ div[class*="AllCommentsTabContainer-borderedComment"] {
   border-bottom: 0;
 }
 
+.coral.coral-comment-content {
+  font-family: 'PT Serif', serif;
+  color: black;
+  font-size: 16px;
+}
+
 .coral.coral-authenticated,
 .coral.coral-unauthenticated {
   display: flex;

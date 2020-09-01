@@ -10,5 +10,8 @@ div[class*="StreamContainer-tabBarRow-"] {
 }
 
 .coral-comment-username > span {
-  font-family: 'PT Serif', serif !important;
+    font-family: 'PT Serif', serif;
+    font-weight: normal;
+    color: #1a56f1;
+    font-size: 16px;
 }

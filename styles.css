@@ -52,6 +52,7 @@ span.coral-comment-username {
   color: #1a56f1;
   font-size: 16px;
 
+  --palette-grey-100: #eff3fe;
   --palette-grey-500: #1a56f1;
   --palette-grey-600: #0032b4;
 }

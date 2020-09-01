@@ -8,3 +8,7 @@ div[class*="StreamContainer-tabBarRow-"] {
       display: flex;
     flex-direction: column-reverse;
 }
+
+.coral-comment-username > span {
+  font-family: 'PT Serif', serif !important;
+}

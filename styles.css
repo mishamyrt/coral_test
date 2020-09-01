@@ -84,6 +84,12 @@ span.coral-comment-username {
   border-radius: var(--round-corners);
 }
 
+.coral.coral-rte-content {
+  font-family: 'PT Serif', serif;
+  font-size: 16px;
+  font-weight: normal;
+}
+
 .coral.coral-createComment-submit {
   background-color: var(--palette-grey-500);
 }

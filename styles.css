@@ -12,11 +12,20 @@ i[class*="PermalinkButton-icon-"] {
   flex-direction: column-reverse;
 }
 
-.coral-comment-username > span {
+.coral-comment-username > span,
+.coral.coral-comment-replyButton,
+.coral.coral-comment-reactButton,
+.coral.coral-comment-shareButton {
   font-family: 'PT Serif', serif;
   font-weight: normal;
   color: #1a56f1;
   font-size: 16px;
+}
+
+.coral.coral-comment-replyButton,
+.coral.coral-comment-reactButton,
+.coral.coral-comment-shareButton {
+  font-size: 14px;
 }
 
 .coral.coral-tabBar-tab::before {

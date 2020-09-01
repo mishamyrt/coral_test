@@ -4,3 +4,7 @@ div[class*="StreamContainer-tabBarRow-"] {
   display: none;
 }
 
+.coral.coral-authenticated {
+      display: flex;
+    flex-direction: column-reverse;
+}

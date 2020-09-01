@@ -1,6 +1,6 @@
 .coral-tabBarSecondary.coral-tabBarMyProfile,
 .coral-tabBarComments-allComments,
-div[class^="StreamContainer-tabBarRow-"] {
+div[class*="StreamContainer-tabBarRow-"] {
   display: none;
 }
 

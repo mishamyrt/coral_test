@@ -81,12 +81,15 @@ span.coral-comment-username {
 
 .coral-comment-username > span,
 .coral.coral-comment-replyButton,
-.coral.coral-comment-reactButton,
-.coral.coral-comment-shareButton {
+.coral.coral-comment-reactButton {
   font-family: 'PT Serif', serif;
   font-weight: normal;
   color: #1a56f1;
   font-size: 16px;
+}
+
+.coral-comment-shareButton {
+  display: none;
 }
 
 .coral.coral-commentForm {

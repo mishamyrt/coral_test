@@ -125,3 +125,7 @@ button[class*="Tab-active-"].coral.coral-tabBar-tab {
   color: black;
   font-size: 16px;
 }
+
+.coral.coral-createReplyComment-replyTo {
+  display: none;
+}

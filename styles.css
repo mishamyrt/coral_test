@@ -24,6 +24,7 @@ div[class*="AllCommentsTabContainer-borderedComment"] {
   flex-direction: column-reverse;
 
   --palette-grey-500: #676565;
+  --palette-grey-600: #F4F4F4;
 }
 
 .coral-comment-actionBar {

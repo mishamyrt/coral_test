@@ -19,6 +19,8 @@ div[class*="UserBoxAuthenticated-text-"],
 #app main {
   padding-left: 32px;
   width: 100%;
+  position: relative;
+  top: -11px;
 }
 
 .coral.coral-stream {

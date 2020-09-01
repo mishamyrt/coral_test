@@ -20,6 +20,8 @@ i[class*="PermalinkButton-icon-"] {
   font-weight: normal;
   color: #1a56f1;
   font-size: 16px;
+
+  --palette-grey-500: #1a56f1;
 }
 
 .coral.coral-comment-replyButton,

@@ -83,7 +83,7 @@ span.coral-comment-username {
   font-size: 14px;
 }
 
-.coral-tabBar-tab {
+.coral.coral-tabBar-tab {
   font-size: 16px;
   color: #1a56f1;
   font-family: 'PT Serif', sans-serif;
@@ -93,7 +93,7 @@ span.coral-comment-username {
   border: none;
 }
 
-button[class*="Tab-active-"].coral-tabBar-tab {
+button[class*="Tab-active-"].coral.coral-tabBar-tab {
   background-color: #1a56f1;
   color: white;
 }

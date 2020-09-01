@@ -23,6 +23,7 @@ div[class*="UserBoxAuthenticated-text-"],
   top: -11px;
 
   --palette-grey-100: #eff3fe;
+  --palette-grey-200: #e7e9f3;
   --palette-grey-300: #dae3f6;
   --palette-grey-500: #1a56f1;
   --palette-grey-600: #0032b4;

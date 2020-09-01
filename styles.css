@@ -7,7 +7,8 @@ i[class*="PermalinkButton-icon-"] {
   display: none;
 }
 
-.coral.coral-authenticated {
+.coral.coral-authenticated,
+.coral.coral-unauthenticated {
   display: flex;
   flex-direction: column-reverse;
 }

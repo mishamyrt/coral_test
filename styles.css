@@ -83,6 +83,10 @@ span.coral-comment-username {
   border-top: 1px solid var(--palette-grey-300);
 }
 
+.coral.coral-createComment-submit {
+  background-color: var(--palette-grey-500);
+}
+
 .coral.coral-timestamp > span,
 .coral.coral-comment-timestamp,
 .coral.coral-myComment-timestamp > span,

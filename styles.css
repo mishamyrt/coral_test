@@ -3,7 +3,8 @@
 div[class*="StreamContainer-tabBarRow-"],
 i[class*="ReactionButton-icon-"],
 i[class*="ReplyButton-icon-"],
-i[class*="PermalinkButton-icon-"] {
+i[class*="PermalinkButton-icon-"],
+div[class*="Comment-subBar-"] {
   display: none;
 }
 

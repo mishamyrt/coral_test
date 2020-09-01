@@ -93,12 +93,12 @@ span.coral-comment-username {
 
 .coral.coral-tabBar-tab {
   font-size: 16px;
-  color: #1a56f1;
+  color: black;
   background-color: white;
   font-family: 'PT Serif', sans-serif;
   font-weight: normal;
   padding: 7px 14px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   border-radius: 50px;
   border: none;
 }

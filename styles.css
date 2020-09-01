@@ -1,20 +1,20 @@
 .coral-tabBarSecondary.coral-tabBarMyProfile,
 .coral-tabBarComments-allComments,
 div[class*="StreamContainer-tabBarRow-"],
-div[class*="ReactionButton-icon-"] {
+i[class*="ReactionButton-icon-"] {
   display: none;
 }
 
 .coral.coral-authenticated {
-      display: flex;
-    flex-direction: column-reverse;
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .coral-comment-username > span {
-    font-family: 'PT Serif', serif;
-    font-weight: normal;
-    color: #1a56f1;
-    font-size: 16px;
+  font-family: 'PT Serif', serif;
+  font-weight: normal;
+  color: #1a56f1;
+  font-size: 16px;
 }
 
 .coral.coral-tabBar-tab::before {

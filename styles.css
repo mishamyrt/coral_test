@@ -11,6 +11,8 @@ i[class*="PermalinkButton-icon-"] {
 .coral.coral-unauthenticated {
   display: flex;
   flex-direction: column-reverse;
+
+  --palette-grey-500: #676565;
 }
 
 .coral-comment-username > span,

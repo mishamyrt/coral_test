@@ -36,6 +36,13 @@ div[class*="AllCommentsTabContainer-borderedComment"] {
   left: -4px;
 }
 
+span.coral-comment-username {
+  font-family: 'PT Serif', serif;
+  font-weight: normal;
+  color: black;
+  font-size: 16px;
+}
+
 .coral-comment-username > span,
 .coral.coral-comment-replyButton,
 .coral.coral-comment-reactButton,

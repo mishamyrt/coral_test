@@ -1,7 +1,9 @@
 .coral-tabBarSecondary.coral-tabBarMyProfile,
 .coral-tabBarComments-allComments,
 div[class*="StreamContainer-tabBarRow-"],
-i[class*="ReactionButton-icon-"] {
+i[class*="ReactionButton-icon-"],
+i[class*="ReplyButton-icon-"],
+i[class*="PermalinkButton-icon-"] {
   display: none;
 }
 

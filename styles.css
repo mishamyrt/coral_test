@@ -1,5 +1,6 @@
 .coral-tabBarSecondary.coral-tabBarMyProfile,
 .coral-tabBarComments-allComments,
+.coral-comment-reportButton,
 div[class*="StreamContainer-tabBarRow-"],
 i[class*="ReactionButton-icon-"],
 i[class*="ReplyButton-icon-"],
@@ -24,7 +25,7 @@ div[class*="AllCommentsTabContainer-borderedComment"] {
   flex-direction: column-reverse;
 
   --palette-grey-500: #676565;
-  --palette-grey-600: #F4F4F4;
+  --palette-grey-600: #f4f4f4;
 }
 
 .coral-comment-actionBar {

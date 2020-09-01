@@ -11,8 +11,18 @@ div[class*="MyCommentsContainer-downloadComments-"],
 div[class*="UserBoxAuthenticated-text-"],
 .coral.coral-unauthenticated .coral-createComment,
 .coral.coral-unauthenticated .coral-viewerBox,
-.coral-viewerBox-username {
+.coral-viewerBox-username,
+.coral-myComment-commentOn {
   display: none;
+}
+
+.coral.coral-stream {
+  display: flex;
+}
+
+.coral.coral-tabBar {
+  flex-direction: column;
+  align-items: center;
 }
 
 div[class*="AllCommentsTabContainer-borderedComment"] {

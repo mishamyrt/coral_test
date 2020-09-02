@@ -124,6 +124,7 @@ span.coral-comment-username {
 }
 
 .coral.coral-createComment-submit,
+.coral.coral-createReplyComment-submit,
 .coral-createReplyComment-cancel {
   background-color: var(--palette-grey-500);
   font-family: 'PT Serif', serif;

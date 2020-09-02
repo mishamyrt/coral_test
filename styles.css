@@ -74,6 +74,9 @@ div[class*="AllCommentsTabContainer-borderedComment"] {
   border-color: #1a56f1;
   margin-bottom: 30px !important;
   color: black;
+  font-weight: normal;
+  font-family: 'PT Serif', serif;
+  font-size: 16px;
 }
 
 .coral-comment-actionBar {

@@ -28,6 +28,10 @@ div[class*="UserBoxAuthenticated-text-"],
   --palette-grey-600: #0032b4;
 }
 
+.coral.coral-comment-reactedButton {
+  color: #1a56f1 !important;
+}
+
 .coral.coral-authenticated,
 .coral.coral-unauthenticated {
   --palette-grey-100: #eff3fe;

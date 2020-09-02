@@ -132,6 +132,10 @@ span.coral-comment-username {
   font-weight: normal;
 }
 
+.coral.coral-createComment-submit {
+  background-color: #1a56f1 !important;
+}
+
 .coral.coral-timestamp > span,
 .coral.coral-comment-timestamp,
 .coral.coral-myComment-timestamp > span,

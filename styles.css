@@ -70,7 +70,7 @@ div[class*="AllCommentsTabContainer-borderedComment"] {
   --palette-grey-600: #f4f4f4;
 }
 
-.coral.coral-loadMoreButton {
+.coral.coral.coral-loadMoreButton {
   border-color: #1a56f1;
   margin-bottom: 30px !important;
   color: black;

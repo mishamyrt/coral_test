@@ -17,7 +17,6 @@ div[class*="UserBoxAuthenticated-text-"],
 }
 
 #app main {
-  padding-left: 32px;
   width: 100%;
   position: relative;
   top: -11px;
@@ -40,6 +39,10 @@ div[class*="UserBoxAuthenticated-text-"],
 
 .coral.coral-stream {
   display: flex;
+}
+
+.coral.coral-stream > nav {
+  display: none;
 }
 
 .coral.coral-tabBar {

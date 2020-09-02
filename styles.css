@@ -79,6 +79,10 @@ div[class*="AllCommentsTabContainer-borderedComment"] {
   font-size: 16px;
 }
 
+.coral.coral.coral-loadMoreButton:hover {
+  background-color: #dae3f6;
+}
+
 .coral-comment-actionBar {
   position: relative;
   left: -4px;
@@ -117,6 +121,9 @@ span.coral-comment-username {
 
 .coral.coral-createComment-submit {
   background-color: var(--palette-grey-500);
+  font-family: 'PT Serif', serif;
+  font-size: 16px;
+  font-weight: normal;
 }
 
 .coral.coral-timestamp > span,

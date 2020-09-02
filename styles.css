@@ -119,9 +119,11 @@ span.coral-comment-username {
   font-weight: normal;
 }
 
-.coral.coral-createComment-submit {
+.coral.coral-createComment-submit,
+.coral-createReplyComment-cancel {
   background-color: var(--palette-grey-500);
   font-family: 'PT Serif', serif;
+  text-transform: capitalize;
   font-size: 16px;
   font-weight: normal;
 }

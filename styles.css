@@ -143,6 +143,12 @@ span.coral-comment-username {
   font-size: 14px;
 }
 
+.coral.coral-comment-replyButton:hover,
+.coral.coral-comment-reactButton:hover,
+.coral.coral-comment-shareButton:hover {
+  color: #0032b4 !important;
+}
+
 .coral.coral-tabBar-tab {
   font-size: 16px;
   color: black;

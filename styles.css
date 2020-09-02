@@ -65,6 +65,11 @@ div[class*="AllCommentsTabContainer-borderedComment"] {
   font-size: 16px;
 }
 
+.coral.coral-rte-placeholder {
+  font-family: 'PT Serif', serif;
+  font-size: 16px;
+}
+
 .coral.coral-authenticated,
 .coral.coral-unauthenticated {
   display: flex;

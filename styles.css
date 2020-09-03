@@ -61,6 +61,9 @@
  div[class*=AllCommentsTabContainer-borderedComment] {
 	 border-bottom: 0;
 }
+ div[class*=Comment-root-] {
+	 overflow: visible;
+}
 /* TODO: Should use SCSS */
 /* TODO: Should use custom properties */
  .coral-comment-username > span, .coral.coral-comment-reactButton, .coral.coral-comment-replyButton, .coral.coral-comment-shareButton {

@@ -1,196 +1,132 @@
 #app main {
-  width: 100%;
-  position: relative;
-  top: -11px;
+	 width: 100%;
+	 position: relative;
+	 top: -11px;
 }
-
-#app main,
-.coral.coral-authenticated,
-.coral.coral-unauthenticated {
-  --palette-grey-100: #eff3fe;
-  --palette-grey-200: #e7e9f3;
-  --palette-grey-300: #dae3f6;
-  --palette-grey-500: #1a56f1;
-  --palette-grey-600: #0032b4;
+ #app main, .coral.coral-authenticated, .coral.coral-unauthenticated {
+	 --palette-grey-100: #eff3fe;
+	 --palette-grey-200: #e7e9f3;
+	 --palette-grey-300: #dae3f6;
+	 --palette-grey-500: #1a56f1;
+	 --palette-grey-600: #0032b4;
 }
-
-.coral {
-  &-comment-reportButton,
-  &-myComment-commentOn,
-  &-tabBarComments-allComments,
-  &-tabBarSecondary.coral-tabBarMyProfile,
-  &-viewerBox-username,
-  &.coral-stream > nav,
-  &.coral-unauthenticated .coral-createComment,
-  &.coral-unauthenticated .coral-viewerBox,
-  div[class*=Comment-subBar-],
-  div[class*=MyCommentsContainer-downloadComments-],
-  div[class*=StreamContainer-tabBarRow-],
-  div[class*=UserBoxAuthenticated-text-],
-  i[class*=PermalinkButton-icon-],
-  i[class*=ReactionButton-icon-],
-  i[class*=ReplyButton-icon-],
-  span[class*=UserBoxAuthenticated-text] {
-    display: none;
-  }
-
-  &.coral-comment-reactedButton {
-    color: #1a56f1 !important;
-  }
-
-  &.coral-stream {
-    display: flex;
-  }
-
-  &.coral-tabBar {
-    flex-direction: column;
-    align-items: flex-start;
-    border-bottom: none;
-  }
-
-  &.coral-comment-content {
-    color: black;
-  }
-
-  &.coral-comment-content,
-  &.coral-rte-placeholder {
-    font-family: 'PT Serif', serif;
-    font-size: 16px;
-  }
-
-  &.coral-authenticated,
-  &.coral-unauthenticated {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: flex-end;
-
-    --palette-grey-500: #676565;
-    --palette-grey-600: #f4f4f4;
-  }
-
-  &.coral.coral-loadMoreButton {
-    border-color: #1a56f1;
-    margin-bottom: 30px !important;
-  }
-
-  &-comment-actionBar {
-    position: relative;
-    left: -4px;
-  }
-
-  &.coral.coral-loadMoreButton,
-  span.coral-comment-username {
-    font-family: 'PT Serif', serif;
-    font-weight: 400;
-    color: #000;
-    font-size: 16px;
-  }
-
-  &.coral.coral-loadMoreButton:hover {
-    background-color: #dae3f6;
-  }
-
-  &-comment-username > span {
-    font-size: 16px;
-  }
+ .coral-comment-reportButton, .coral-myComment-commentOn, .coral-tabBarComments-allComments, .coral-tabBarSecondary.coral-tabBarMyProfile, .coral-viewerBox-username, .coral.coral-stream > nav, .coral.coral-unauthenticated .coral-createComment, .coral.coral-unauthenticated .coral-viewerBox, .coral div[class*=Comment-subBar-], .coral div[class*=MyCommentsContainer-downloadComments-], .coral div[class*=StreamContainer-tabBarRow-], .coral div[class*=UserBoxAuthenticated-text-], .coral i[class*=PermalinkButton-icon-], .coral i[class*=ReactionButton-icon-], .coral i[class*=ReplyButton-icon-], .coral span[class*=UserBoxAuthenticated-text] {
+	 display: none;
 }
-
-div[class*=AllCommentsTabContainer-borderedComment] {
-  border-bottom: 0;
+ .coral.coral-comment-reactedButton {
+	 color: #1a56f1 !important;
 }
-
+ .coral.coral-stream {
+	 display: flex;
+}
+ .coral.coral-tabBar {
+	 flex-direction: column;
+	 align-items: flex-start;
+	 border-bottom: none;
+}
+ .coral.coral-comment-content {
+	 color: black;
+}
+ .coral.coral-comment-content, .coral.coral-rte-placeholder {
+	 font-family: 'PT Serif', serif;
+	 font-size: 16px;
+}
+ .coral.coral-authenticated, .coral.coral-unauthenticated {
+	 display: flex;
+	 flex-direction: column-reverse;
+	 justify-content: flex-end;
+	 --palette-grey-500: #676565;
+	 --palette-grey-600: #f4f4f4;
+}
+ .coral.coral.coral-loadMoreButton {
+	 border-color: #1a56f1;
+	 margin-bottom: 30px !important;
+}
+ .coral-comment-actionBar {
+	 position: relative;
+	 left: -4px;
+}
+ .coral.coral.coral-loadMoreButton, .coral span.coral-comment-username {
+	 font-family: 'PT Serif', serif;
+	 font-weight: 400;
+	 color: #000;
+	 font-size: 16px;
+}
+ .coral.coral.coral-loadMoreButton:hover {
+	 background-color: #dae3f6;
+}
+ .coral-comment-username > span {
+	 font-size: 16px;
+}
+ div[class*=AllCommentsTabContainer-borderedComment] {
+	 border-bottom: 0;
+}
 /* TODO: Should use SCSS */
-
 /* TODO: Should use custom properties */
-
-.coral-comment-username > span,
-.coral.coral-comment-reactButton,
-.coral.coral-comment-replyButton {
-  font-family: 'PT Serif', serif;
-  font-weight: 400;
-  color: #1a56f1;
+ .coral-comment-username > span, .coral.coral-comment-reactButton, .coral.coral-comment-replyButton {
+	 font-family: 'PT Serif', serif;
+	 font-weight: 400;
+	 color: #1a56f1;
 }
-
-.coral.coral-tabBar-tab::before {
-  display: none;
+ .coral-comment-shareButton, .coral.coral-tabBar-tab::before {
+	 display: none;
 }
-
-.coral.coral-commentForm {
-  border-top: 1px solid var(--palette-grey-300);
-  border-radius: var(--round-corners);
+ .coral.coral-commentForm {
+	 border-top: 1px solid var(--palette-grey-300);
+	 border-radius: var(--round-corners);
 }
-
-.coral.coral-rte-content {
-  font-family: 'PT Serif', serif;
-  font-size: 16px;
-  font-weight: 400;
+ .coral.coral-rte-content {
+	 font-family: 'PT Serif', serif;
+	 font-size: 16px;
+	 font-weight: 400;
 }
-
-.coral-createReplyComment-cancel,
-.coral.coral-createComment-submit,
-.coral.coral-createReplyComment-submit {
-  background-color: var(--palette-grey-500);
-  font-family: 'PT Serif', serif;
-  text-transform: capitalize;
-  font-size: 16px;
-  font-weight: 400;
+ .coral-createReplyComment-cancel, .coral.coral-createComment-submit, .coral.coral-createReplyComment-submit {
+	 background-color: var(--palette-grey-500);
+	 font-family: 'PT Serif', serif;
+	 text-transform: capitalize;
+	 font-size: 16px;
+	 font-weight: 400;
 }
-
-.coral.coral-createComment-submit {
-  background-color: #1a56f1 !important;
+ .coral.coral-createComment-submit {
+	 background-color: #1a56f1 !important;
 }
-
-.coral.coral-comment-timestamp,
-.coral.coral-myComment-timestamp,
-.coral.coral-myComment-timestamp > span,
-.coral.coral-timestamp > span {
-  font-family: 'PT Serif', serif;
-  font-weight: 400;
-  font-size: 14px;
+ .coral.coral-comment-timestamp, .coral.coral-myComment-timestamp, .coral.coral-myComment-timestamp > span, .coral.coral-timestamp > span {
+	 font-family: 'PT Serif', serif;
+	 font-weight: 400;
+	 font-size: 14px;
 }
-
-.coral.coral-comment-reactButton,
-.coral.coral-comment-replyButton,
-.coral.coral-comment-shareButton {
-  font-size: 14px;
+ .coral.coral-comment-reactButton, .coral.coral-comment-replyButton, .coral.coral-comment-shareButton {
+	 font-size: 14px;
 }
-
-.coral.coral-comment-reactButton:hover,
-.coral.coral-comment-replyButton:hover,
-.coral.coral-comment-shareButton:hover {
-  color: #0032b4 !important;
+ .coral.coral-comment-reactButton:hover, .coral.coral-comment-replyButton:hover, .coral.coral-comment-shareButton:hover {
+	 color: #0032b4 !important;
 }
-
-.coral.coral-tabBar-tab {
-  font-size: 16px;
-  color: #000;
-  background-color: #fff;
-  font-family: 'PT Serif', sans-serif;
-  font-weight: 400;
-  padding: 7px 14px;
-  margin-bottom: 10px;
-  border-radius: 50px;
-  border: 0;
+ .coral.coral-tabBar-tab {
+	 font-size: 16px;
+	 color: #000;
+	 background-color: #fff;
+	 font-family: 'PT Serif', sans-serif;
+	 font-weight: 400;
+	 padding: 7px 14px;
+	 margin-bottom: 10px;
+	 border-radius: 50px;
+	 border: 0;
 }
-
-button[class*=Tab-active-].coral.coral-tabBar-tab {
-  background-color: #1a56f1;
-  color: white;
+ button[class*=Tab-active-].coral.coral-tabBar-tab {
+	 background-color: #1a56f1;
+	 color: white;
 }
-
-.coral.coral-myProfile {
-  position: relative;
-  top: -7px;
+ .coral.coral-myProfile {
+	 position: relative;
+	 top: -7px;
 }
-
-.coral.coral-myComment-content,
-.coral.coral-myComment-story {
-  font-family: 'PT Serif', serif;
-  font-weight: 400;
-  color: #000;
-  font-size: 16px;
+ .coral.coral-myComment-content, .coral.coral-myComment-story {
+	 font-family: 'PT Serif', serif;
+	 font-weight: 400;
+	 color: #000;
+	 font-size: 16px;
 }
-
-.coral.coral-createReplyComment-replyTo {
-  display: none;
+ .coral.coral-createReplyComment-replyTo {
+	 display: none;
 }
+ 

@@ -70,6 +70,7 @@
 	 border-radius: 4px;
 	 padding: 4px 4px 4px 1px;
 	 --font-family-primary: 'PT Serif', serif;
+	 --font-weight-primary-semi-bold: normal;
 }
 /* TODO: Should use SCSS */
 /* TODO: Should use custom properties */

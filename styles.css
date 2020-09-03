@@ -63,7 +63,7 @@
 }
 /* TODO: Should use SCSS */
 /* TODO: Should use custom properties */
- .coral-comment-username > span, .coral.coral-comment-reactButton, .coral.coral-comment-replyButton {
+ .coral-comment-username > span, .coral.coral-comment-reactButton, .coral.coral-comment-replyButton, .coral.coral-comment-shareButton {
 	 font-family: 'PT Serif', serif;
 	 font-weight: 400;
 	 color: #1a56f1;

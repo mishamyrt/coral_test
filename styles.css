@@ -68,7 +68,7 @@
 	 font-weight: 400;
 	 color: #1a56f1;
 }
- .coral-comment-shareButton, .coral.coral-tabBar-tab::before {
+ .coral.coral-tabBar-tab::before {
 	 display: none;
 }
  .coral.coral-commentForm {
